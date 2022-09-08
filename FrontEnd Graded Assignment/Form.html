@@ -1,0 +1,92 @@
+      <!DOCTYPE html>
+      <html>
+          <head>
+            <title>Patient Contact Details</title>
+          <link rel="stylesheet" type="text/css" href="./FormStyle.css">
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          </head>
+          <body>
+              <div class="container">
+                  <div class="left">
+                  <form action="/" >
+                    <div class="item">
+                      <p><b>1.Your Contact Details</b></p>
+                      <div class="name-item">
+                        <input type="text" name="Full Name" placeholder="Full Name" />
+                        <input type="text" name="Patient Id if exists" placeholder="Patient Id if exists" />
+                        <input type="text" name="Contact Number" placeholder="Contact Number" />
+                        <input type="text" name="Email id" placeholder="Email id" />
+                      </div>
+                    </div>
+                    <div class="item">
+                      <p><b>2.Address</b></p>
+                      <input type="text" name="H.No" placeholder="H.No" />
+                      <input type="text" name="Street" placeholder="Street" />
+                      <input type="text" name="Area" placeholder="Area" />
+                      <div class="district-item">
+                          <select>
+                            <option value="">District</option>
+                            <option value="1">RangaReddy</option>
+                            <option value="2">Medak</option>
+                            <option value="3">Hyderabad</option>
+                            <option value="4" selected>Choose</option>
+                          </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                      <p><b>3. Choose the Test Type.</b></p>
+                      <p class="msg">Choose atleast one box without fail!</p>
+                      <div class="question-answer">
+                        <input type="radio" value="none" id="radio_1" name="testType"/>
+                        <label for="radio_1" class="radio"><span>CBC</span></label>
+                        <input type="radio" value="none" id="radio_2" name="testType" />
+                        <label for="radio_2" class="radio"><span>Complete Urine</span></label>
+                        <input type="radio" value="none" id="radio_3" name="testtype"/>
+                        <label for="radio_3" class="radio"><span>Lipid Profile</span></label>
+                        <input type="radio" value="none" id="radio_4" name="testType" />
+                        <label for="radio_4" class="radio"><span>Thyroid Stimulating Hormone(TSH)</span></label>
+                        <input type="radio" value="none" id="radio_5" name="testType" />
+                        <label for="radio_5" class="radio"><span>Glucose Test</span></label>
+                      </div>
+                    </div>
+
+                    <div class="question">
+                      <p><b>4. Do you want a hard copy of the report also?</b></p>
+                      <div class="question-answer">
+                        <input type="radio" value="none" id="radio_1" name="test"/>
+                        <label for="radio_1" class="radio"><span>Yesy</span></label>
+                        <input type="radio" value="none" id="radio_2" name="test" />
+                        <label for="radio_2" class="radio"><span>No</span></label>
+                      
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <p><b>5. Select Your Comfortable Date and Time</b></p>
+                      <div class="name-item">
+                        <input type="text" name="Date" placeholder="Date" />
+                        <input type="text" name="Time" placeholder="Time" />
+                      </div>
+                    </div>
+                    
+                  </form>
+                  
+                  <div class="btn-block">
+                      <button type="submit" href="/">Reset</button>
+                      <button type="submit" href="/">Submit</button>
+                    </div> 
+                  
+                </div>
+                <div class="right">
+                  <div class="fixed">
+
+                      <img src="./Images/Lab-Test/lab-test.jpg" >
+                    
+                  </div>
+                </div>
+
+            </div>
+
+          </body>
+      </html>
